@@ -1,0 +1,2 @@
+#การแสดงผล
+print("Hi Devtowkz")
