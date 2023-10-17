@@ -7,7 +7,7 @@ high = int(input("ป้อนส่วนสูงของคุณ(cm) : "))
 #print("BMI = ",weight / (high**2))
 
 #process
-high = hight/100
+high = high/100
 bmi = weight / (high**2)
 
 print("BMI = ",bmi)
