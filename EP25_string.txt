@@ -1,0 +1,6 @@
+การเข้าถึงตัวอักษรใน string
+len function
+ลบช่องว่าง(strip)
+แปลง case ของ string
+การแทนที่ (replace)
+การเช็คข้อความ => True , False
