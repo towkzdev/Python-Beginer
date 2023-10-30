@@ -4,3 +4,7 @@ len function
 แปลง case ของ string
 การแทนที่ (replace)
 การเช็คข้อความ => True , False
+การต่อ string (concatenate) +
+การจัดรูปแบบการแสดงผล format + {}
+นับจำนวนคำในประโยค(count)
+เช็คคำขึ้นต้น(startswith) \ เช็คคำลงท้าย(endswith)
