@@ -1,6 +1,6 @@
 #Data type & Variable(ชื่อตัวแปล = ค่าที่เก็บในตัวแปล)
 
-x = 10 
+x = 10
 y = 3.99
 z = True
 print(x)
