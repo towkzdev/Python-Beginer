@@ -8,7 +8,6 @@ x=fruit_2.copy()
 print(x)
 
 #การรวมสมาชิก (+)
-
 allGroup_1=number_1+fruit_2
 print("+",allGroup_1)
 
