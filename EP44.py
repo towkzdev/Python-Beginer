@@ -1,4 +1,4 @@
-#Assignment รับและเรียงบลำดับข้อมูลตัวเลข
+#Assignment_1 รับและเรียงบลำดับข้อมูลตัวเลข (.sort)
 number=[]
 while True:
     x=int(input("Enter your number :"))
