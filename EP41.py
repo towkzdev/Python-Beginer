@@ -3,21 +3,21 @@
 
 import random
 
-myrandom = random.randrange(1,7)
+myrandom = random.randrange(1,10)
 #print(myrandom)
 k=1
 correct=False
 print("คุณมีโอกาส 3 ครั้ง \n")
 
 while True:
-    number=int(input("ป้อนคำตอบของคุณ :"))
+    number=str(input("ป้อนคำตอบของคุณ :"))
     correct =(number==myrandom)
     
     if not correct:
         if(number>myrandom):
-            print("น้อยกว่า")
+            print("****")
         if(number<myrandom):
-            print("มากกว่า")
+            print("****")
             
     if correct:
         print("ตอบถูก")
