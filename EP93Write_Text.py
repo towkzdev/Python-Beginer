@@ -2,8 +2,10 @@
 
 try:
     fw=open("EP93_test.txt","w",encoding="utf-8")
-    fw.write("Hello World\n")
-    fw.write("ดีจ้า")
-    fw.close
+    for i in range(5):
+        name = input("ป้อนข้อความที่ต้องการ :")
+        fw.writelines(name+"\n")
+    
+    fw.close()
 except FileNotFoundError:
     print("หาไฟล์ไม่เจอจ้า")

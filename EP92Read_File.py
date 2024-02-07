@@ -8,6 +8,10 @@ try:
     for x in line:
         print(x)
     
-    fr.close
+    fw=open("EP92.txt","a",encoding="utf-8")
+    fw.writelines("สวัสดีชาวโลกจ้า\n")
+    
+    fw.close()
+    fr.close()
 except FileNotFoundError:
     print("หาไฟล์ไม่เจอจ้า")
