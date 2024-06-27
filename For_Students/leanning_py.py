@@ -71,3 +71,54 @@ str(string-ข้อความ)
 _a = 10
 a_1 = 10
 
+#การแปลงชนิดข้อมูล (Type Conversion)
+
+a = 10  #->> int , str
+
+b = int(a) #--> int
+c = str(a) #--> str
+d = float(a) #--> float
+print(type(b))
+print(type(c))
+print(type(d))
+
+#input function
+
+name = input("กรุณาป้อนชื่อ : ") #Gr --> name = Gr
+print("ชื่อ : "+name) #ชื่อ : Gr
+print(type(name))# class : <'str'>
+
+#ตัวดำเนินการทางคณิต
+x = 10
+y = 3
+print("ผลบวก = ",x+y)
+print("ผลลบ = ",x-y)
+print("ผลคูณ = ",x*y)
+print("ผลหาร = ",x/y)
+print("ผลหาร = ",int(x/y))
+print("ยกกำลัง = ",x**y)
+#mod หารเอาเศษ
+print("หารเอาเศษ", x%y)
+
+#ตัวดำเนินการทางตรรกศาสตร์(ค่าความจริง= และ หรือ ถ้าแล้ว ก็ต่อเมื่อ)
+#and or not -->True , False
+x = (5>10) #False
+y = (10==5) #False
+z = x and y #z = False and False --> z = False
+print("ผล Z :",z)
+a = x or y # a = False or False --> a = False
+print("ผล :",a)
+print("ผล :",not(a)) # not(a) = True
+
+#Compound Assignment (การลดรูปตัวดำเนินการ)
+x = 10
+print("ก่อน :",x)
+x+=5 #x = x+5
+#x-=5 #x = x+5
+#x*=5 #x = x-5
+#x/=5 #x = x*5
+#x//=5 #x = x/5
+#x//=5 #x = x//5
+#x**=5 #x = x**5
+#x%=5 #x = x%5
+print("หลัง :",x)
