@@ -5,13 +5,17 @@
 3.แบบทำซ้ำ
 '''
 
-'''แบบเลือก
+'''แบบเลือกลำดับ
 if เงือนไขเป็นจริง:
-    statement
-    
+    statement(คำสั่งดำเนินการ)
+else:
+    statement(คำสั่งดำเนินการ)
 '''
+
+#Ex.
 age = int(input("Enter your Age : "))
 if age>=15:
     print("คำนำหน้าเป็น นาย/นางสาว")
 else:
     print("จบโปรแกรม")
+print("Good bye")

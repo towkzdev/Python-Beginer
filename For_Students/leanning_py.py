@@ -119,6 +119,87 @@ x+=5 #x = x+5
 #x/=5 #x = x*5
 #x//=5 #x = x/5
 #x//=5 #x = x//5
-#x**=5 #x = x**5
-#x%=5 #x = x%5
+#x**=5 #x = x**5#x%=5 #x = x%5
 print("หลัง :",x)
+
+#ลำดับความสำคัญของตัวดำเนินการ
+'''แบบเลือกลำดับ
+if เงือนไขเป็นจริง:
+    statement(คำสั่งดำเนินการ)
+else:
+    statement(คำสั่งดำเนินการ)
+'''
+
+#Ex.
+age = int(input("Enter your Age : "))
+if age>=15:
+    print("คำนำหน้าเป็น นาย/นางสาว")
+else:
+    print("จบโปรแกรม")
+print("Good bye")
+
+# โครงสร้างควบคุมแบบเลือก (if..else)
+'''
+if เงือนไขเป็นจริง:
+    statement(คำสั่งดำเนินการ)
+if เงื่อนไขเป็นจริง:
+    statement(คำสั่งดำเนินการ)
+else:
+    statement(คำสั่งดำเนินการ)
+'''
+age = int(input("Enter your Age : ")) #28
+if age>=15:
+    print("วัยรุ่น")
+elif age>=20:
+    print("วัยผู้ใหญ่")
+elif age>=30:
+    print("วัยทำงาน")
+else :
+    print("วัยเด็ก")
+
+print("จบโปรแกรม")
+
+#การใช้ And Or Not
+age = int(input("Enter your Age : "))
+#and
+#15 - 20 =>วัยรุ่น
+#21 - 29 =>วัยผู้ใหญ่
+#30 - 39 =>วัยทำงาน
+if age>=15 and age<=20:
+    print("วัยรุ่น")
+elif age>=21 and age<=29:
+    print("วัยผู้ใหญ่")
+elif age>=30 and age<=39:
+    print("วัยทำงาน")
+elif age>=80:
+    print("วัยชรา")
+else:
+    print("วัยเด็ก")
+    
+#or
+if age>=15 or age<=20:
+    print("วัยรุ่น")
+else:
+    print("วัยเด็ก")
+
+#not
+if not age>=15:
+    print("วัยรุ่น")
+else:
+    print("วัยเด็ก")
+
+#if ซ้อน if
+
+age = int(input("Enter your Age : "))
+
+if age<=15:
+    if age==15:
+        print("ม.3")
+    elif age==14:
+        print("ม.2")
+    elif age==13:
+        print("ม.1")
+    else:
+        print("ประถมศึกษา")
+else:
+    print("ม.ปลาย")

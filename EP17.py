@@ -4,3 +4,4 @@
 '''
 age = int(input("Enter your age : "))
 print("วัยรุ่น") if age>=15 else print("วัยเด็ก")
+

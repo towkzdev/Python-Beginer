@@ -1,5 +1,4 @@
 #การใช้ And Or Not
-
 age = int(input("Enter your Age : "))
 #and
 #15 - 20 =>วัยรุ่น
