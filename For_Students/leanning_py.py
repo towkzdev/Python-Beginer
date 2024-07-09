@@ -140,7 +140,7 @@ print("Good bye")
 
 # โครงสร้างควบคุมแบบเลือก (if..else)
 '''
-if เงือนไขเป็นจริง:
+if เงือนไขเป็นจริง:# a<10 :
     statement(คำสั่งดำเนินการ)
 if เงื่อนไขเป็นจริง:
     statement(คำสั่งดำเนินการ)
@@ -159,8 +159,13 @@ else :
 
 print("จบโปรแกรม")
 
-#การใช้ And Or Not
+#การใช้ And Or Not(ตรงกันข้าม:จะใช้กับค่าความจริง(True,False)
+yy = not(True)
+xx = not(False)
+print(xx)
+print(yy)
 age = int(input("Enter your Age : "))
+
 #and
 #15 - 20 =>วัยรุ่น
 #21 - 29 =>วัยผู้ใหญ่
@@ -190,7 +195,7 @@ else:
 
 #if ซ้อน if
 
-age = int(input("Enter your Age : "))
+age = int(input("Enter your Age : ")) #14
 
 if age<=15:
     if age==15:
@@ -203,3 +208,27 @@ if age<=15:
         print("ประถมศึกษา")
 else:
     print("ม.ปลาย")
+
+
+#input
+id = str(input("Enter Student Id: "))#student id
+#surname
+#lastname
+income = 0#income
+
+#process
+if income >= 0 and income<= 150000:
+    tax_5 = 5
+    tax = income*(5/100)#รายได้ไม่เกิน 150000 : 0 <= income <= 150000 ;0%
+#รายได้ 150001-300000 : 150001 <= income <= 300000 ;5%
+#รายได้ 150001-300000 : 300001 <= income <= 500000 ;10%
+#รายได้ 150001-300000 : income >= 500000 ;20%
+
+#Output
+#student id
+#surname
+#lastname
+#income
+print("Tax:",tax_5,"%")#tax%
+print("Tax",tax,"THB")#tax THB
+
